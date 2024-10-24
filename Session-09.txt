@@ -1,13 +1,13 @@
 1. netstat -lntp --> this should open port no 80
 2. ps -ef | grep nginx
-3. you can check the logs
+3. you can check the logs - var/log/nginx/ (There will be access.log) tail -f access.log
 4. systemctl status nginx
 5. check security groups
 
 Data
 -------------
 SQL --> Row and columns
-NoSQL --> json or js
+NoSQL --> json or java script
 Excel --> row and cloumns but no relation b/w tables.
 Files --> some thing inside files
 
@@ -28,6 +28,7 @@ Downloading Packages:
 (4/5): mongodb-org-server-4.2.24-1.el8.x86_64.rpm                                                       12 MB/s |  20 MB     00:01
 (5/5): mongodb-org-tools-4.2.24-1.el8.x86_64.rpm 
 
+Every application have dependecies node js also has - cat package.json
 
 redis is a popular cache server.
 
